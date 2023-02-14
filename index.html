@@ -1,0 +1,347 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+<html>
+<head>
+<title>самостійна робота 1 </title>
+<link rel="icon" type="image/x-icon" href="https://i.pinimg.com/564x/19/a7/66/19a76673d8336da17b58e2b75cccfc07.jpg">
+<meta charset="UTF-8">
+<style>
+a:link {
+  color: forestgreen;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: hotpink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkorange;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellowgreen;
+  background-color: transparent;
+ text-decoration: underline;
+}
+
+div {
+  background-image: url('https://i.pinimg.com/564x/8a/ca/de/8acade38c87c12c433109a5eb3197e0c.jpg');
+  background-repeat: no-repeat;
+  font-size: 20px;  
+  background-attachment: fixed;
+  background-size: cover;
+}
+ table, th, td {
+  border: 3px solid hotpink;
+  border-collapse: collapse;
+  padding: 15px;
+  
+}
+#tabtwo tr:hover {background-color: pink;}
+
+#tabone td:nth-child(even) , th:nth-child(even){
+  background-color: rgba(150, 212, 212, 0.4);
+}
+#tabone tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+#spus ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#99cc00;
+  display: flex;
+
+}
+
+#spus li {
+  float: left;
+
+}
+
+#spus li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+#spus li a:hover {
+  background-color: #4d9900;
+}
+
+body {
+background-color: whitesmoke;
+padding: 20px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #99cc00;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+#picmap {
+  display: block;
+  margin: 0 auto;
+}
+
+</style>
+</head>
+
+<body style="font-family:Bahnschrift light">
+<div id="spus">
+<ul >
+  <li><a href="#lin">Links</a></li>
+  <li><a href="#pic">Pictures</a></li>
+  <li><a href="#table">Table</a></li>
+  <li><a href="#list">List</a></li>
+  <li><a href="#form">Form</a></li>
+</ul>
+</div>
+<h1 title="yea, it's first" >my first heading</h1>
+<p>↑ ↓ використано атрибут title з підказкою </p>
+<h2  title="obviously second">my second heading</h2>
+<h3>my third heading</h3>
+<h4>heading 4</h4>
+<h5>heading 5</h5>
+<h6>heading 6</h6>
+<hr>
+<p>↑ hr</p>
+<p>my first paragraph</p>
+<p>another paragraph</p>
+<h2 id="cat" >Pciture of the cat</h2>
+<p>Використано атрибути alt, width, height</p>
+<img src="https://i.pinimg.com/564x/96/a4/84/96a4844fdf738c98066242c293e88805.jpg" alt="black cat" width="100" height="100%">
+<br>
+<h2>Pink button </h2>
+<button type="button" onclick="alert('Hello World!')" style="background:pink; width: 100px;height: 100px">push me</button>
+<h1 style="font-size:60px;text-align:center;">heading with font-size </h1>
+<h2 style="background-color:powderblue;text-align:center;" >Using element pre and style </h2>
+<pre style="color: forestgreen;">
+  I work all night, I work all day
+
+  To pay the bills i have to pay.
+
+  Ain't it sad ?
+
+  And still there never seems to be
+
+  A single penny left to me.
+
+                             ABBA
+</pre>
+<h2 id="lin" style="text-align: center;font-size:60px">Links</h2>
+<a href="https://uk.wikipedia.org/wiki/Minecraft" target="_blank"> this is a link to a minecraft's wikipedia page </a><br>
+<a href="https://uk.wikipedia.org/wiki/Minecraft" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/uk/4/48/Minecraft_logo.png" alt="also link to minecraft's wikipedia page" style="width:300px;height:100%;"></a><br>
+<p>the picture is also a link ))</p>
+<a href="#cat"><h3> go to the cat </h3></a>
+<p>"go to the cat" is a link to the capter "Picture of the cat" on this page</p>
+
+<h2 id="pic" style="text-align: center;font-size:60px">Pictures</h2>
+<img src="https://i.pinimg.com/564x/c0/c2/40/c0c24079ee719f285b69bbf763e36c4f.jpg" alt="birthday frog" width="140" height="147">
+<img src="https://i.pinimg.com/564x/68/e2/92/68e2920cf0c14c25a7c43f7ad73584d7.jpg" alt="queen frog" width="212" height="100%">
+<img src="https://i.pinimg.com/564x/7b/da/3d/7bda3d50c888f3dd1da52a6dcaa1fa05.jpg" alt="devil frog" style="width:158px;height:100%;">
+<img src="https://i.pinimg.com/originals/a9/ca/f6/a9caf6edad30b4f38a0573b21dcdf32d.gif" alt="skeleton gif" style="float: left;width: 190px; height: 100%; padding: 10px;"> 
+
+<p>there is a several pictures of the frog with diferent type of style in html code and one gif</p>
+<br><br>
+<h2 style="text-align: center;font-size:60px">Карти зображень</h2>
+<img src="https://i.pinimg.com/564x/36/8b/e5/368be5be9071e6e9051219728f5c156f.jpg" alt="building" usemap="#workmap" id="picmap">
+<map name="workmap">
+  <area shape="rect" coords="0,0,200,800" href="https://uk.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BA%D1%82%D1%83%D1%81%D0%BE%D0%B2%D1%96">
+  <area shape="rect" coords="220,100,450,500" href="https://uk.wikipedia.org/wiki/%D0%92%D1%96%D0%BA%D0%BD%D0%BE">
+
+<h2 style="text-align: center;font-size:60px">Background picture</h2>
+<div>Studio Ghibli, Inc. (Japanese: 株式会社スタジオジブリ, Hepburn: Kabushiki-gaisha Sutajio Jiburi) <br>is a Japanese animation studio based in Koganei, Tokyo.<br> It is best known for its range of animated feature films and has also produced several short subjects, television commercials, and two television films.<br> Its mascot and most recognizable symbol is a character named Totoro,<br> a giant spirit inspired by raccoon dogs (tanuki) and cats from the 1988 anime film My Neighbor Totoro. </div>
+<h2 style="text-align: center;font-size:60px">Element picture</h2>
+<p style="text-align: center;">change size of your screen to see another picture</p>
+<picture>
+  <source media="(min-width: 650px)" srcset="https://i.pinimg.com/564x/a0/e2/e9/a0e2e9365c43c018a4bba1e9f1e1b3c7.jpg" id="picmap">
+  <source media="(min-width: 465px)" srcset="https://i.pinimg.com/564x/bc/1d/b2/bc1db263e21bb67f4582dc7c328ef69b.jpg" id="picmap">
+  <img src="https://i.pinimg.com/564x/32/b1/74/32b174bfae457c48095bac125541d09d.jpg" id="picmap">
+  </picture>
+<h2 id="table" style="text-align: center;font-size:60px">Table</h2>
+
+<table>
+
+  <tr>
+    <th>
+<table  id= "tabone" style="width:400px;text-align:left;">
+  <caption>regular table</caption>
+  <tr>
+    <th >Animal</th>
+    <th style="width:70%" >Color</th>
+    <th>Cute </th>
+    <th>Name</th>
+  </tr>
+  <tr>
+    <td>cat</td>
+    <td>white and black</td>
+    <td>defenetly</td>
+    <td>Jeremy</td>
+  </tr>
+  <tr>
+    <td>frog</td>
+    <td>light green</td>
+    <td>of course</td>
+    <td>Fidgerald</td>
+  </tr>
+    <tr>
+    <td>pug</td>
+    <td>bige</td>
+    <td>yea</td>
+    <td>Jhon</td>
+  </tr>
+</table>
+</th>
+
+<th>
+<table id="tabtwo" style="width:400px;text-align:left;">
+   <caption>with colspan and rowspan</caption>
+    <tr>
+    <td>frog</td>
+    <td colspan="3">cat</td>
+    <td rowspan="2">Ukraine</td>
+  </tr>
+    <tr>
+    <td rowspan="3">frog</td>
+    <td>cat</td>
+    <td>Ukraine</td>
+    <td>cat</td>
+  </tr>
+    <tr>
+    <td>cat</td>
+    <td colspan="2" rowspan="2">Ukraine</td>
+    <td >cat</td>
+  </tr>
+    <tr>
+    <td>cat</td>
+    <td >cat</td>
+  </tr>
+    <tr>
+    <td>frog</td>
+    <td>cat</td>
+    <td colspan="3">Ukraine</td>
+  </tr>
+</table>
+
+</th>
+</tr>
+</table>
+
+<h2 id="list" style="text-align: center;font-size:60px">List</h2>
+<h3>невпорядкований список</h3>
+<ul  style="list-style-type:circle;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+<h3>впорядкований список</h3>
+<ol type="a">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<h3>списки опису</h3>
+<dl>
+  <dt>Кава</dt>
+  <dd>чорний гарячий напій</dd>
+  <dt>Молоко</dt>
+  <dd>білий холодний напій</dd>
+</dl>
+<h3>вкладені списки</h3>
+<ul>
+  <li>Кава</li>
+  <li>Чай
+    <ul>
+      <li>Чорний чай</li>
+      <li>Зелений чай</li>
+    </ul>
+  </li>
+  <li>Молоко</li>
+</ul>
+<br>
+<h2 id="form" style="text-align: center;font-size:60px">Form</h2>
+<form action='/action_page.html' autocomplete="on" >
+  <fieldset>
+    <legend style="padding: 15px;">Особиста інформація:</legend>
+  Name:<br>
+  <input type='text' name='firstname' placeholder="Liza" ><br>
+  Lastname:<br>
+  <input type='text' name='lastname' placeholder="Podvoiska"><br>
+  Email:<br>
+  <input type="email" name="email" placeholder="something@gmail.com"><br>
+  Sex:<br>
+  <input type='radio' name='gender' value='female' checked> Female<br>
+  <input type='radio' name='gender' value='male'> Male<br>
+  <input type='radio' name='gender' value='other'> Other<br>
+  Birthday:
+  <input type="date" name="bday"><br><br>
+Telephone number :
+  <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3} "placeholder="111 111 11"><br><br>
+  favorite animal
+<select name="animals">
+  <option value="cat">Cat</option>
+  <option value="dog">Dog</option>
+  <option value="humster">Humster</option>
+  <option value="parot">Parot</option>
+</select><br><br>
+  favorite color
+<form action="https://www.w3schools.com/action_page.php">
+    <input type="color" name="favcolor" value="#99cc00">
+</form>
+  <br><br>
+    <input type='submit' value='Відправити'>
+    <input type="reset" value='Стерти'>
+</fieldset>
+</form><br>
+  <textarea name="message" rows="10" cols="30">
+The cat was playing in the garden.
+</textarea>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+</html>
